@@ -1,0 +1,13 @@
+[project]
+name = "figures"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyfus",
+    "pyqt5>=5.15.11",
+]
+
+[tool.uv.sources]
+pyfus = { git = "ssh://git@github.com/Iconeus/pyfus.git", tag = "0.18.2" }
